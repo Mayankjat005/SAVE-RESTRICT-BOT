@@ -15,7 +15,7 @@ import os
 # ==============================
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", "0"))
+API_ID = int(os.environ.get("API_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 
@@ -32,7 +32,7 @@ ADMINS = [int(admin) for admin in os.environ.get("ADMINS", "").split(",") if adm
 # ==============================
 
 DB_URI = os.environ.get("DB_URI", "")
-DB_NAME = os.environ.get("DB_NAME", "SaveRestricted2")
+DB_NAME = os.environ.get("DB_NAME", "")
 
 
 # ==============================
@@ -40,7 +40,7 @@ DB_NAME = os.environ.get("DB_NAME", "SaveRestricted2")
 # ==============================
 
 # Replace with your Telegram log channel ID (example: -1001234567890)
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "0"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
 
 
 # ==============================
