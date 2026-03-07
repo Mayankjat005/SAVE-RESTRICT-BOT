@@ -2,7 +2,7 @@
 # Don't Remove Credit
 # Telegram Channel @cantarellabots
 
-HELP_TXT = """<b>🚀 Welcome to cantarella Save Restricted Bot - Complete Guide</b>
+HELP_TXT = """<b>🚀 Welcome to Warrior Units Save Restricted Bot - Complete Guide</b>
 
 <b>👋 How to Use Me</b>
 <blockquote expandable>
@@ -12,7 +12,7 @@ HELP_TXT = """<b>🚀 Welcome to cantarella Save Restricted Bot - Complete Guide
 
 <b>2. Saving Content</b>
 • Simply <b>send any Telegram post link</b> (public or private).
-• For <b>batch saving</b>: Send a link like <code>https://t.me/channel/100-110</code> (from message ID 100 to 110).
+• For <b>batch saving</b>: Send a link like <code>https://t.me/WarriorUnitsBots/100-110</code> (from message ID 100 to 110).
 • The bot will save all files/media in the range.
 
 <b>3. Features</b>
@@ -52,7 +52,7 @@ HELP_TXT = """<b>🚀 Welcome to cantarella Save Restricted Bot - Complete Guide
 <b>💡 Tips</b>
 • Free users: 10 saves/day + 5 files per batch
 • Premium users: Unlimited saves & batch size
-• Contact @cantarellabots for support or premium purchase
+• Contact @oo7jatji for support or premium purchase
 
 <b>Thank you for using cantarella! ❤️</b>
 """
@@ -99,7 +99,7 @@ COMMANDS_TXT = """<b>📜 All Available Commands</b>
 </blockquote>
 
 <b>🔥 Premium = Unlimited Everything</b>
-<i>Contact @cantarellabots to upgrade!</i>
+<i>Contact @oo7jatji to upgrade!</i>
 """
 
 # Dont remove Credits
