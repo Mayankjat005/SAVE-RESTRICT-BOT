@@ -133,6 +133,13 @@ class Bot(Client):
             BotCommand("rem_del_word", "Remove delete word"),
             BotCommand("set_repl_word", "Add replace word"),
             BotCommand("rem_repl_word", "Remove replace word"),
+            BotCommand("ban", "For Ban The User (Admin Only)"),
+            BotCommand("unban", "For Unban Ban User(Admin Only)"),
+            BotCommand("add_premium", "Add Premium To User(Admin Only)"),
+            BotCommand("remove_premium", "Remove Premium (Admin Only)"),
+            BotCommand("users", "Total Users (Admin Only)"),
+            BotCommand("premium_users", "Total Premium Users(Admin Only)"),
+            BotCommand("dblink", "Database URL (Admin Only)"),
         ]
         await self.set_bot_commands(commands)
 
