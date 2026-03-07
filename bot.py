@@ -125,6 +125,7 @@ class Bot(Client):
             BotCommand("setchat", "Set target chat"),
             BotCommand("set_thumb", "Set thumbnail"),
             BotCommand("view_thumb", "View thumbnail"),
+            BotCommand("thumb_mode", "Thumbnail Mode"),
             BotCommand("del_thumb", "Delete thumbnail"),
             BotCommand("set_caption", "Set caption"),
             BotCommand("see_caption", "View caption"),
