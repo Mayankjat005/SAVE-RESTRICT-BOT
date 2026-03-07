@@ -36,10 +36,10 @@ REACTIONS = [
 ]
 
 
-dev_text = "👑 Owner Of This Bot:\n• @oo7jatji \n• Stranger"
-expected_dev_hash = "e3b3a5f9c7b7dbe2e7c2a0e5e6c4a7c3c0c8d7a9c6a5b4e3f2d1c0b9a8e7d6f5"
-channels_text = "📢 Official Channels:\n• @WarriorUnitsBots\n• @Warrior_Units\n\nStay updated for new features!"
-expected_channels_hash = "87fb382f7fce9c482c7f79a7d7e93a57e7ac44ca6fbb84e381f3c022c8a7e624"
+dev_text = "👨‍💻 Mind Behind This Bot:\n• @DmOwner\n• @akaza7902"
+expected_dev_hash = "b9e63b7578bdec13f3cb3162fe5f5e93dccaba3bfd5c8ddacbb90ffdcdcce402"
+channels_text = "📢 Official Channels:\n• @ReX_update\n• @THEUPDATEDGUYS\n\nStay updated for new features!"
+expected_channels_hash = "e19212e571bd0f6626450dd790029d392c0748c554d4b386a0c0752f4148d37d"
 
 if (
     hashlib.sha256(dev_text.encode('utf-8')).hexdigest() != expected_dev_hash or
