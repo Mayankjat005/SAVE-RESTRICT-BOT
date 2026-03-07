@@ -34,7 +34,7 @@ LOGO = r"""
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="cantarella_Login_Bot",
+            name="WarriorUnits_Login_Bot",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
@@ -93,7 +93,7 @@ class Bot(Client):
             f"<b>Bot:</b> @{me.username}\n"
             f"<b>Users:</b> <code>{user_count} / 200</code>\n"
             f"<b>Time:</b> <code>{now.strftime('%I:%M %p')} IST</code>\n\n"
-            f"<b>Developed by @cantarellabots</b>"
+            f"<b>Developed by @WarriorUnitsBots</b>"
         )
 
         try:
@@ -116,6 +116,7 @@ class Bot(Client):
         commands = [
             BotCommand("start", "Start the bot"),
             BotCommand("help", "Show help"),
+            BotCommand("batch", "To Start Batch"),
             BotCommand("login", "Login"),
             BotCommand("logout", "Logout"),
             BotCommand("cancel", "Cancel current action"),
