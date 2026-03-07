@@ -36,8 +36,8 @@ REACTIONS = [
 ]
 
 
-dev_text = "👨‍💻 Owner Of This Bot:\n• @oo7jatji\n• @WarriorUnitsBots"
-expected_dev_hash = "8a7b0f9a6c6e7e1c0c6c62a88a6c0f6c0a70e4c8b5a7cbe3f7a8b9dba6a9c0a1"
+dev_text = "👑 Owner Of This Bot:\n• @oo7jatji \n• Stranger"
+expected_dev_hash = "e3b3a5f9c7b7dbe2e7c2a0e5e6c4a7c3c0c8d7a9c6a5b4e3f2d1c0b9a8e7d6f5"
 channels_text = "📢 Official Channels:\n• @WarriorUnitsBots\n• @Warrior_Units\n\nStay updated for new features!"
 expected_channels_hash = "87fb382f7fce9c482c7f79a7d7e93a57e7ac44ca6fbb84e381f3c022c8a7e624"
 
