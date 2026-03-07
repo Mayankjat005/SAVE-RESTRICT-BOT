@@ -19,11 +19,11 @@ from database.db import db
 import math
 from logger import LOGGER
 logger = LOGGER(__name__)
-SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg')
+SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://i.ibb.co/xtVG36m2/20260307-0916-Image-Generation-simple-compose-01kk36ew2gfnebh3vmgbz0f55r.webp')
 FREE_LIMIT_SIZE = 2 * 1024 * 1024 * 1024
 FREE_LIMIT_DAILY = 10
-UPI_ID = os.environ.get("UPI_ID", "your_upi@oksbi")
-QR_CODE = os.environ.get("QR_CODE", "https://graph.org/file/242b7f1b52743938d81f1.jpg")
+UPI_ID = os.environ.get("UPI_ID", "007jatji@ybl")
+QR_CODE = os.environ.get("QR_CODE", "https://i.ibb.co/xtVG36m2/20260307-0916-Image-Generation-simple-compose-01kk36ew2gfnebh3vmgbz0f55r.webp")
 REACTIONS = [
     "👍", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "🤬",
     "😢", "🎉", "🤩", "🤮", "💩", "🙏", "👌", "🕊", "🤡", "🥱",
@@ -36,10 +36,10 @@ REACTIONS = [
 ]
 
 
-dev_text = "👨‍💻 Mind Behind This Bot:\n• @DmOwner\n• @akaza7902"
-expected_dev_hash = "b9e63b7578bdec13f3cb3162fe5f5e93dccaba3bfd5c8ddacbb90ffdcdcce402"
-channels_text = "📢 Official Channels:\n• @ReX_update\n• @THEUPDATEDGUYS\n\nStay updated for new features!"
-expected_channels_hash = "e19212e571bd0f6626450dd790029d392c0748c554d4b386a0c0752f4148d37d"
+dev_text = "👨‍💻 Owner Of This Bot:\n• @oo7jatji\n• @WarriorUnitsBots"
+expected_dev_hash = "f1a4923e6e57f2c4e5130b7ff041dcd1635ed32008e91d1ef3aedad24ab4f961"
+channels_text = "📢 Official Channels:\n• @WarriorUnitsBots\n• @Warrior_Units\n\nStay updated for new features!"
+expected_channels_hash = "87fb382f7fce9c482c7f79a7d7e93a57e7ac44ca6fbb84e381f3c022c8a7e624"
 
 if (
     hashlib.sha256(dev_text.encode('utf-8')).hexdigest() != expected_dev_hash or
@@ -55,14 +55,15 @@ class script(object):
 <blockquote><b>🚀 System Status: 🟢 Online</b>
 <b>⚡ Performance: 10x High-Speed Processing</b>
 <b>🔐 Security: End-to-End Encrypted</b>
-<b>📊 Uptime: 99.9% Guaranteed</b></blockquote>
+<b>📊 Uptime: 99.9% Guaranteed</b>
+<b>📢 Join: @WarriorUnitsBots And @Warrior_Units</b></blockquote>
 <b>👇 Select an Option Below to Get Started:</b>
 """
     HELP_TXT = """<b>📚 Comprehensive Help & User Guide</b>
 <blockquote><b>1️⃣ Public Channels (No Login Required)</b></blockquote>
 • Forward or send the post link directly.
 • Compatible with any public channel or group.
-• <i>Example Link:</i> <code>https://t.me/channel/123</code>
+• <i>Example Link:</i> <code>https://t.me/Warrior_Units/123</code>
 <blockquote><b>2️⃣ Private/Restricted Channels (Login Required)</b></blockquote>
 • Use <code>/login</code> to securely connect your Telegram account.
 • Send the private link (e.g., <code>t.me/c/123...</code>).
@@ -79,11 +80,12 @@ class script(object):
 """
     ABOUT_TXT = """<b>ℹ️ About This Bot</b>
 <blockquote><b>╭────[ 🧩 Technical Stack ]────⍟</b>
-<b>├⍟ 🤖 Bot Name : <a href=http://t.me/THEUPDATEDGUYS_Bot>Save Content</a></b>
-<b>├⍟ 👨‍💻 Developer : <a href=https://t.me/DmOwner>Ⓜ️ark X cantarella</a></b>
+<b>├⍟ 🤖 Bot Name : <a href=http://t.me/Save_Restriction_Contant_Bot>Save Restriction Contant Bot</a></b>
+<b>├⍟ 𓆩👑𓆪 Owner : <a href=https://t.meoo7jatji>Strange</a></b>
 <b>├⍟ 📚 Library : <a href='https://docs.pyrogram.org/'>Pyrogram Async</a></b>
 <b>├⍟ 🐍 Language : <a href='https://www.python.org/'>Python 3.11+</a></b>
 <b>├⍟ 🗄 Database : <a href='https://www.mongodb.com/'>MongoDB Atlas Cluster</a></b>
+<b>├⍟ 📢Join: @WarriorUnitsBots and @Warrior_Units</b>
 <b>├⍟ 📡 Hosting : Dedicated High-Speed VPS</b>
 <b>╰───────────────⍟</b></blockquote>
 """
@@ -97,9 +99,11 @@ class script(object):
 <b>📝 Personalized Captions</b>
 <b>🛂 24/7 Priority Support</b></blockquote>
 <blockquote><b>💳 Pricing Options:</b></blockquote>
-• <b>1 Month Plan:</b> ₹50 / $1 (Billed Monthly)
-• <b>3 Month Plan:</b> ₹120 / $2.5 (Save 20%)
-• <b>Lifetime Access:</b> ₹200 / $4 (One-Time Payment)
+• <b>5 Days Plan:</b> ₹50 / $1 
+• <b>15 Days Plan:</b> ₹120 / $2.5 
+• <b>20 Days Plan:</b> ₹150 / $3
+• <b>1 Month Plan:</b> ₹200 / $4 
+• <b>2 Months Plan:</b> ₹320 / $6
 <blockquote><b>👇 Secure Payment:</b></blockquote>
 <b>💸 UPI ID:</b> <code>{}</code>
 <b>📸 QR Code:</b> <a href='{}'>Scan to Pay</a>
@@ -113,9 +117,10 @@ class script(object):
 <b>💾 Size:</b> <code>{current} of {total}</code>
 <b>⏱ Elapsed:</b> <code>{elapsed}</code>
 <b>⏳ ETA:</b> <code>{eta}</code>
+<b>✨ Join @WarriorUnitsBots and @Warrior_Units </b>
 </blockquote>
 """
-    CAPTION = """<b><a href="https://t.me/THEUPDATEDGUYS"></a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/THEUPDATEDGUYS">THE UPDATED GUYS 😎</a></b>"""
+    CAPTION = """<b><a href="https://t.me/WarriorUnitsBots"></a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/WarriorUnitsBots">Warrior Units Bots 😎</a></b>"""
     LIMIT_REACHED = """<b>🚫 Daily Limit Exceeded</b>
 <b>Your 10 free saves for today have been used.</b>
 <i>Quota resets automatically after 24 hours from first download.</i>
@@ -239,7 +244,7 @@ async def send_start(client: Client, message: Message):
         photo_url = response.json()["url"]
     except Exception as e:
         logger.error(f"Failed to fetch image from API: {e}")
-        photo_url = "https://i.postimg.cc/kX9tjGXP/16.png"
+        photo_url = "https://i.ibb.co/QFj3vcvS/photo-2023-12-27-17-06-45.jpg"
     buttons = [
         [
             InlineKeyboardButton("💎 Buy Premium", callback_data="buy_premium"),
@@ -251,7 +256,7 @@ async def send_start(client: Client, message: Message):
         ],
         [
             InlineKeyboardButton('📢 Channels', callback_data="channels_info"),
-            InlineKeyboardButton('👨‍💻 Developers', callback_data="dev_info")
+            InlineKeyboardButton('𓆩👑𓆪 Owner', callback_data="dev_info")
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -276,7 +281,7 @@ async def send_help(client: Client, message: Message):
 @Client.on_message(filters.command(["plan", "myplan", "premium"]))
 async def send_plan(client: Client, message: Message):
     buttons = [
-        [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/DmOwner")],
+        [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/oo7jatji")],
         [InlineKeyboardButton("❌ Close Menu", callback_data="close_btn")]
     ]
     await client.send_photo(
@@ -508,7 +513,7 @@ async def button_callbacks(client: Client, callback_query: CallbackQuery):
         await settings_panel(client, callback_query)
     elif data == "buy_premium":
         buttons = [
-            [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/DmOwner")],
+            [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/oo7jatji")],
             [InlineKeyboardButton("⬅️ Back to Home", callback_data="start_btn")]
         ]
         await client.edit_message_media(
@@ -549,7 +554,7 @@ async def button_callbacks(client: Client, callback_query: CallbackQuery):
             photo_url = response.json()["url"]
         except Exception as e:
             logger.error(f"Failed to fetch image from API: {e}")
-            photo_url = "https://i.postimg.cc/cC7txyhz/15.png"
+            photo_url = "https://i.ibb.co/QFj3vcvS/photo-2023-12-27-17-06-45.jpg"
         buttons = [
             [
                 InlineKeyboardButton("💎 Buy Premium", callback_data="buy_premium"),
@@ -561,7 +566,7 @@ async def button_callbacks(client: Client, callback_query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton('📢 Channels', callback_data="channels_info"),
-                InlineKeyboardButton('👨‍💻 Developers', callback_data="dev_info")
+                InlineKeyboardButton('𓆩👑𓆪 Owner', callback_data="dev_info")
             ]
         ]
         await client.edit_message_media(
