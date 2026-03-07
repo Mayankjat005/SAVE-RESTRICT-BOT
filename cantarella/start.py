@@ -37,7 +37,7 @@ REACTIONS = [
 
 
 dev_text = "👨‍💻 Owner Of This Bot:\n• @oo7jatji\n• @WarriorUnitsBots"
-expected_dev_hash = "f1a4923e6e57f2c4e5130b7ff041dcd1635ed32008e91d1ef3aedad24ab4f961"
+expected_dev_hash = "8a7b0f9a6c6e7e1c0c6c62a88a6c0f6c0a70e4c8b5a7cbe3f7a8b9dba6a9c0a1"
 channels_text = "📢 Official Channels:\n• @WarriorUnitsBots\n• @Warrior_Units\n\nStay updated for new features!"
 expected_channels_hash = "87fb382f7fce9c482c7f79a7d7e93a57e7ac44ca6fbb84e381f3c022c8a7e624"
 
@@ -85,8 +85,8 @@ class script(object):
 <b>├⍟ 📚 Library : <a href='https://docs.pyrogram.org/'>Pyrogram Async</a></b>
 <b>├⍟ 🐍 Language : <a href='https://www.python.org/'>Python 3.11+</a></b>
 <b>├⍟ 🗄 Database : <a href='https://www.mongodb.com/'>MongoDB Atlas Cluster</a></b>
-<b>├⍟ 📢Join: @WarriorUnitsBots and @Warrior_Units</b>
 <b>├⍟ 📡 Hosting : Dedicated High-Speed VPS</b>
+<b>├⍟ 📢Join: @WarriorUnitsBots and @Warrior_Units</b>
 <b>╰───────────────⍟</b></blockquote>
 """
     PREMIUM_TEXT = """<b>💎 Premium Membership Plans</b>
@@ -256,7 +256,7 @@ async def send_start(client: Client, message: Message):
         ],
         [
             InlineKeyboardButton('📢 Channels', callback_data="channels_info"),
-            InlineKeyboardButton('𓆩👑𓆪 Owner', callback_data="dev_info")
+            InlineKeyboardButton('👑 Owner', callback_data="dev_info")
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -566,7 +566,7 @@ async def button_callbacks(client: Client, callback_query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton('📢 Channels', callback_data="channels_info"),
-                InlineKeyboardButton('𓆩👑𓆪 Owner', callback_data="dev_info")
+                InlineKeyboardButton('👑 Owner', callback_data="dev_info")
             ]
         ]
         await client.edit_message_media(
